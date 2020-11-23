@@ -12,6 +12,11 @@ h1:hover {
   color: red;
 }
 
+h2, h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
 header {
   background: black;
   color: white;
