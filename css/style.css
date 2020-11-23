@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 15px 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  font-family: "Lora", serif;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  font-family: "Lora", serif;
+  font-size: 15px;
+}
+
+ul li {
+  display: inline;
+  font-weight: bold;
+  color: red;
+  padding: 20px;
+}
+
+.top-section {
+  background: lightgray;
+  margin-top: 80px;
+  position: relative;
+}
+
+.middle-section {
+  background: lightgray;
+  margin-top: 10px;
+}
+
+.bottom-section {
+  background: lightgray;
+}
+
+.bottom-section .bat-bottom {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: right;
+  width: 13%;
+}
+.bat {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: 0;
+  width: 25%;
+  height:auto;
+}
+
+
+.custon-text{
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.flying-bat {
+  position: absolute;
+  width: 20%;
+  top: 520px;
+  left: 0px;
+  animation: fly 10s linear infinite,
+              up 2s 1.2s ease infinite;
+}
+
+@keyframes fly {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(600px);
+  }
+}
+
+@keyframes up {
+  0% {
+    top: 400px;
+  }
+  50% {
+    top: 600px;
+  }
+  100% {
+    top: 400px;
+  }
+}
