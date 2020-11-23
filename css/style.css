@@ -8,6 +8,10 @@ h1 {
     font-weight: 100;
 }
 
+h1:hover {
+  color: red;
+}
+
 header {
   background: black;
   color: white;
