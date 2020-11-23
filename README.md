@@ -8,4 +8,4 @@ Resources used for this project:
 I, **James Bielicke**, have read the point deduction list and understand that I will lose points for missing items.
 
 #### IMAGES:
-![Edward Gorey Bat Illustration]()
+![Edward Gorey Bat Illustration](http://www.jbielicke04.com/assignment4-bielicke-james/image/bat.png)
